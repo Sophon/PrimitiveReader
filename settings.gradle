@@ -1,4 +1,4 @@
 include ':reader'
-include ':library'
+include ':lib'
 include ':app'
 rootProject.name = "PrimitiveReader"
