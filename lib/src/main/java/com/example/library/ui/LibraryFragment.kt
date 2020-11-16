@@ -18,8 +18,14 @@ class LibraryFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = DataBindingUtil.inflate(inflater, R.id.libraryFragment, container, false)
+        binding = FragmentLibraryBinding.inflate(inflater, container, false)
 
         return binding.root
+    }
+
+    companion object {
+        fun getInstance(): LibraryFragment {
+            return LibraryFragment()
+        }
     }
 }
