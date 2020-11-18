@@ -1,4 +1,4 @@
-package com.example.primitivereader.data
+package com.example.core.data
 
 data class Document(
         val name: String = "",
