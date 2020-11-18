@@ -3,6 +3,7 @@ package com.example.library.ui
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
+import com.example.core.data.Document
 
 class LibraryAdapter: ListAdapter<Document, DocumentHolder>(DiffCallback()) {
 
